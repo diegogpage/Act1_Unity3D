@@ -30,10 +30,10 @@ public class ActivadorParedes : MonoBehaviour
         }
     }
 
-
     public void Recolocar()
     {
         pared1.Recolocar();
         pared2.Recolocar();
+        paredMoviendo.Stop();
     }
 }
